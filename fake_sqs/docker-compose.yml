@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+        fakesqs:
+            image: airdock/fake-sqs:latest 
+            ports: 
+                - "4568;4568"
+        fakesns:
+            image: airdock/fake-sns:latest
+            ports:
+                - "9292:9292"
