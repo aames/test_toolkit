@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+        swagger-editor:
+            image:swaggerapi/swagger-editor:latest
+            posts:
+                - "80:8080"
+
