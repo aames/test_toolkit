@@ -9,3 +9,4 @@ services:
             environment:
                 - DB_USER=pg
                 - DB_PASS=pgpass
+                - PG_PASSWORD=pgpass
